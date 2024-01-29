@@ -57,3 +57,22 @@ To run the SCI model, use the same command as RUAS:
 ```
 python test.py
 ```
+## Benchmarking
+
+### Selected Metrics
+For our benchmarking process, we selected the following image quality metrics: PSNR, SSIM, FSIM, VSI, DISTS, BRISQUE, and CLIP-IQA. These metrics provide a comprehensive evaluation of image quality from different perspectives, such as similarity to the reference image, perceived visual quality, and statistical naturalness.
+
+### Using PIQ for Metrics Calculation
+We utilize PyTorch Image Quality (PIQ) to calculate these metrics efficiently. PIQ is a versatile Python library that provides a collection of measures and metrics for image quality assessment with PyTorch. Here's a brief overview:
+
+- **PIQ (PyTorch Image Quality)**: PIQ is not only a repository of well-established image quality metrics but also a framework for developing new measures for image assessment. It allows researchers and developers to focus on their experiments without worrying about implementing evaluation metrics from scratch.
+
+- **Continuously Extending**: The library regularly updates with new metrics and methods, ensuring that you have access to the latest advances in image quality assessment.
+
+- **Loss Functions**: For metrics that can double as loss functions in optimization problems, PIQ provides corresponding PyTorch modules, making it easy to integrate these metrics into deep learning training pipelines.
+
+To calculate the image quality metrics using PIQ, run the `image_metrics.py` script:
+
+```
+python image_metrics.py
+```
