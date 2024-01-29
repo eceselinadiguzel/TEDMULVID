@@ -59,7 +59,7 @@ python test.py
 ```
 ## Benchmarking
 
-# Benchmarking Metrics
+### Benchmarking Metrics
 
 For our benchmark, we've chosen a suite of metrics to evaluate image quality. Each metric provides unique insights into different aspects of image quality:
 
