@@ -90,3 +90,44 @@ To calculate the image quality metrics using PIQ, run the `image_metrics.py` scr
 ```
 python image_metrics.py
 ```
+## Benchmarking Results
+
+Our benchmarking results are summarized in two tables representing the performance of different deep learning models across multiple metrics.
+
+### Scene 1 - Benchmarking Results
+
+![Table-1](https://github.com/eceselinadiguzel/TEDMULVID/assets/84806004/a6a92754-da7d-4d45-81c7-c63fa20ceea2)
+
+*Table 1: Performance analysis of various models for Scene 1.*
+
+Table 1 presents a comparative analysis of the performance of various deep learning models across seven videos from Scene 1. It highlights the best and second-best metric scores to indicate the effectiveness of models for specific aspects of image enhancement. In Scene 1, the Night Enhancement and SCI models generally deliver the highest quality enhancements, with the former excelling in PSNR, SSIM, and CLIP-IQA, and the latter in FSIM, VSI, and BRISQUE. EnlightenGAN stands out in the DISTS metric, showcasing its strength in perceptual similarity, while Exposure Correction particularly shines in the CLIP-IQA metric.
+
+### Scene 2 - Benchmarking Results
+
+![Table-2](https://github.com/eceselinadiguzel/TEDMULVID/assets/84806004/f8cd0cd9-8c79-40ff-adaa-4c57dd609e09)
+
+*Table 2: Performance analysis of various models for Scene 2.*
+
+Table 2 illustrates the top-performing models for various image quality metrics across ten videos in Scene 2. The best results for each metric are underlined and bolded, with second-best results in bold, clearly showing which models are leading in enhancing image quality for each specific metric.
+
+The analysis for Scene 2 reveals SCI as a particularly strong contender, achieving the best results across several metrics, apart from CLIP-IQA. This showcases SCI's comprehensive and robust image enhancement capabilities. Moreover, Night Enhancement and Exposure Correction models also feature prominently, securing a significant share of the top scores. This indicates their effectiveness in improving image quality, making them suitable choices for the conditions encountered in Scene 2.
+
+## Comprehensive Assessment Of Image Quality Enhancement Models In TEDMULVID Dataset
+
+![Results](https://github.com/eceselinadiguzel/TEDMULVID/assets/84806004/0fdee170-2431-4d40-99f2-74d18eb5b66b)
+
+*Table 3: An illustrative comparison of image enhancement outcomes across Scenes 1 through 3, showcasing the superior performance of advanced deep learning models on a per-metric basis, with the top results for each scene emphasized in bold red.*
+
+Table 3 provides a detailed assessment of model performance across three distinct scenes. In Scene 1, Night Enhancement shows a remarkable capacity for rendering images with clarity and integrity. SCI demonstrates its ability to preserve texture and salience, while Exposure Correction also shows notable performance in visual resolution and image quality.
+
+As we move to Scene 2, SCI maintains its lead in texture and salience metrics, with Night Enhancement performing best in SSIM. Exposure Correction is also noteworthy, ranking second for PSNR and CLIP-IQA. In Scene 3, SCI continues to excel in overall image quality enhancement, while Night Enhancement performs exceptionally in DISTS and CLIP-IQA, indicating its versatility.
+
+The RUAS model, however, does not lead in any metric, suggesting its constrained utility in this test set. On the other hand, EnlightenGAN's peak performance in DISTS for Scenes 1 and 2 highlights its exceptional capability in preserving perceptual quality.
+
+These insights underscore the distinct strengths of the SCI and Night Enhancement models, guiding their application in real-world image enhancement scenarios. The selection of the most fitting algorithm is crucial and should be based on specific enhancement goals and scene characteristics, as evidenced by our comprehensive benchmarks.
+
+---
+
+
+
+
