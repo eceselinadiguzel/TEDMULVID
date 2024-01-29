@@ -27,19 +27,14 @@ Below are the instructions for running each image enhancement model included in 
 
 Use the following Python code to run the EnlightenGAN model:
 
-`
-from enlighten_inference import EnlightenOnnxModel
-import cv2
+### Exposure Correction
+For the Exposure Correction model, run the following command in MATLAB: `run demo_single_image.m`
 
-# Load your image
-img = cv2.imread('/path/to/your/image.jpg')
+### Night Enhancement
+To execute the Night Enhancement model, use the command:`python demo.py`
 
-# Initialize the model with CUDA as default
-model = EnlightenOnnxModel()
+### RUAS
+For testing the RUAS model, use the command: `python test.py`
 
-# To run the model using CPU, specify the provider
-# model = EnlightenOnnxModel(providers=["CPUExecutionProvider"])
-
-# Process the image
-processed = model.predict(img) '
-
+### SCI
+To run the SCI model, use the same command as RUAS: `python test.py`
