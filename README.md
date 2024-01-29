@@ -118,7 +118,7 @@ The analysis for Scene 2 reveals SCI as a particularly strong contender, achievi
 
 *Table 3: An illustrative comparison of image enhancement outcomes across Scenes 1 through 3, showcasing the superior performance of advanced deep learning models on a per-metric basis, with the top results for each scene emphasized in bold red.*
 
-Table 3 provides a detailed assessment of model performance across three distinct scenes. In Scene 1, Night Enhancement shows a remarkable capacity for rendering images with clarity and integrity. SCI demonstrates its ability to preserve texture and salience, while Exposure Correction also shows notable performance in visual resolution and image quality.
+Table 3 offers a nuanced evaluation of various models across three distinct scenes. For Scene 1, the Night Enhancement model emerges as a significant performer, adept at rendering images with enhanced clarity and integrity. Concurrently, the SCI model stands out for its proficient preservation of texture and visual saliency, demonstrating its strength in these key areas.
 
 As we move to Scene 2, SCI maintains its lead in texture and salience metrics, with Night Enhancement performing best in SSIM. Exposure Correction is also noteworthy, ranking second for PSNR and CLIP-IQA. In Scene 3, SCI continues to excel in overall image quality enhancement, while Night Enhancement performs exceptionally in DISTS and CLIP-IQA, indicating its versatility.
 
