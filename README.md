@@ -13,8 +13,33 @@ The dataset can be downloaded from the following link:
 [Download TEDMULVID Dataset](https://drive.google.com/drive/folders/1-VpD7wjO0ly-EExo4J8ABfphJEdGZSqt?usp=drive_link)
 
 ## Models Evaluated
-- Night Enhancement
-- SCI
-- Exposure Correction
-- RUAS
 - EnlightenGAN
+- Exposure Correction
+- Night Enhancement
+- RUAS
+- SCI
+
+### Usage
+
+Below are the instructions for running each image enhancement model included in this repository.
+
+### EnlightenGAN
+
+Use the following Python code to run the EnlightenGAN model:
+
+`
+from enlighten_inference import EnlightenOnnxModel
+import cv2
+
+# Load your image
+img = cv2.imread('/path/to/your/image.jpg')
+
+# Initialize the model with CUDA as default
+model = EnlightenOnnxModel()
+
+# To run the model using CPU, specify the provider
+# model = EnlightenOnnxModel(providers=["CPUExecutionProvider"])
+
+# Process the image
+processed = model.predict(img) '
+
