@@ -18,6 +18,7 @@ The dataset can be downloaded from the following link:
 - Night Enhancement
 - RUAS
 - SCI
+![TEDMULVID Dataset Sample](https://github.com/eceselinadiguzel/TEDMULVID/issues/2#issue-2106578396)
 
 ### Usage
 
