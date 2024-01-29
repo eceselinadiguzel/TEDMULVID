@@ -18,7 +18,8 @@ The dataset can be downloaded from the following link:
 - Night Enhancement
 - RUAS
 - SCI
-
+  
+### Models Results For Scene-1
 ![TEDMULVID Model Sample](https://github.com/eceselinadiguzel/TEDMULVID/assets/84806004/61f4aea9-758b-4be1-9a9e-130ac2d2e773)
 
 ### Usage
