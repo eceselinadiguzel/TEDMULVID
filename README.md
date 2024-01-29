@@ -26,11 +26,13 @@ Below are the instructions for running each image enhancement model included in 
 ### EnlightenGAN
 
 Use the following Python code to run the EnlightenGAN model: 
-`from enlighten_inference import EnlightenOnnxModel
+```
+from enlighten_inference import EnlightenOnnxModel
 import cv2
 img = cv2.imread('/path/to/image.jpg')
 model = EnlightenOnnxModel()
-processed = model.predict(img)`
+processed = model.predict(img)
+```
 
 ### Exposure Correction
 For the Exposure Correction model, run the following command in MATLAB: `run demo_single_image.m`
