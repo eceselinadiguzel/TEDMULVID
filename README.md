@@ -59,8 +59,25 @@ python test.py
 ```
 ## Benchmarking
 
-### Selected Metrics
-For our benchmarking process, we selected the following image quality metrics: PSNR, SSIM, FSIM, VSI, DISTS, BRISQUE, and CLIP-IQA. These metrics provide a comprehensive evaluation of image quality from different perspectives, such as similarity to the reference image, perceived visual quality, and statistical naturalness.
+# Benchmarking Metrics
+
+For our benchmark, we've chosen a suite of metrics to evaluate image quality. Each metric provides unique insights into different aspects of image quality:
+
+- **PSNR (Peak Signal-to-Noise Ratio)**: A measure of the peak error between the enhanced and reference image, widely used as a standard for assessing reconstruction quality.
+
+- **SSIM (Structural Similarity Index)**: Evaluates the visual impact of three characteristics of an image: luminance, contrast, and structure, thus providing a more accurate measure of perceived image quality.
+
+- **FSIM (Feature Similarity Index)**: Measures the similarity between two images in terms of low-level features, focusing on significant structural information.
+
+- **VSI (Visual Saliency-Induced Index)**: Incorporates visual saliency into image quality assessment, emphasizing regions that attract more attention.
+
+- **DISTS (Deep Image Structure and Texture Similarity)**: Uses deep learning features to compare the structure and texture similarities between images, reflecting more advanced perceptual image quality.
+
+- **BRISQUE (Blind/Referenceless Image Spatial Quality Evaluator)**: A no-reference image quality metric that assesses images based on spatial distribution of pixels without requiring a pristine reference image.
+
+- **CLIP-IQA**: A metric for image quality assessment based on the CLIP (Contrastive Language-Image Pretraining) model, which evaluates images based on learned representations from large-scale image-text pairs.
+
+These metrics were computed using the PyTorch Image Quality (PIQ) library for their robustness and reliability in various image quality assessment scenarios.
 
 ### Using PIQ for Metrics Calculation
 We utilize PyTorch Image Quality (PIQ) to calculate these metrics efficiently. PIQ is a versatile Python library that provides a collection of measures and metrics for image quality assessment with PyTorch.
