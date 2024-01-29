@@ -35,13 +35,25 @@ processed = model.predict(img)
 ```
 
 ### Exposure Correction
-For the Exposure Correction model, run the following command in MATLAB: `run demo_single_image.m`
+For the Exposure Correction model, run the following command in MATLAB: 
+```
+run demo_single_image.m
+```
 
 ### Night Enhancement
-To execute the Night Enhancement model, use the command:`python demo.py`
+To execute the Night Enhancement model, use the command:
+```
+python demo.py
+```
 
 ### RUAS
-For testing the RUAS model, use the command: `python test.py`
+For testing the RUAS model, use the command: 
+```
+python test.py
+```
 
 ### SCI
-To run the SCI model, use the same command as RUAS: `python test.py`
+To run the SCI model, use the same command as RUAS: 
+```
+python test.py
+```
