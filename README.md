@@ -6,7 +6,7 @@ This repository is dedicated to our comprehensive research paper, wherein we int
 The TEDMULVID dataset is central to our research. It encompasses a wide range of videos captured under various low-light conditions, providing a rich resource for testing image enhancement models.
 
 ### Dataset Image
-![TEDMULVID Dataset Sample]([TEDMULVID.png](https://hizliresim.com/b4vluq3))
+![TEDMULVID Dataset Sample](https://hizliresim.com/b4vluq3)
 
 ### Download
 The dataset can be downloaded from the following link:
