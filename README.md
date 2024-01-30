@@ -126,7 +126,46 @@ The RUAS model, however, does not lead in any metric, suggesting its constrained
 
 These insights underscore the distinct strengths of the SCI and Night Enhancement models, guiding their application in real-world image enhancement scenarios. The selection of the most fitting algorithm is crucial and should be based on specific enhancement goals and scene characteristics, as evidenced by our comprehensive benchmarks.
 
----
+## References
+
+This section lists the key references that informed and supported our research:
+
+1. **[Author(s) Name]**, _"[Paper Title]"_, [Journal/Conference Name], Year.
+2. **[Another Author(s) Name]**, _"[Another Paper Title]"_, [Journal/Conference Name], Year.
+   - Continue with additional references as needed.
+
+## Citation
+
+If you use our work or dataset in your research, please cite our paper:
+
+```
+@article{YourPaper2024,
+  title = {A NEW MULTI-LEVEL LOW-LIGHT VIDEO DATASET FOR BENCHMARK OF LOW-LIGHT IMAGE ENHANCEMENT METHODS},
+  url = {https://arxiv.org/...},
+  author = {Ece Selin Adıgüzel, Ayşe Almacı, Doruk Eren, Yücel Çimtay, Gökçe Nur Yılmaz},
+  doi = {...},
+  publisher = {arXiv},
+  year = {2024}
+}
+```
+
+## Contact
+
+For further inquiries or collaboration opportunities, feel free to reach out:
+
+- **Ece Selin Adıgüzel**
+  - Email: [eceselinadiguzel@gmail.com]
+  - LinkedIn: [https://www.linkedin.com/in/eceselinadiguzel/]
+- **Ayşe Almacı**
+  - Email: [ayse.almaci@tedu.edu.tr]
+  - LinkedIn: [https://www.linkedin.com/in/aysealmaci/]
+- **Doruk Eren**
+  - Email: [dorukeren1986@gmail.com]
+  - LinkedIn: [https://www.linkedin.com/in/doruk-eren-70824420a/]
+- **Yücel Çimtay**
+  - Email: [yucel.cimtay@gmail.com]
+  - LinkedIn: [https://www.linkedin.com/in/y%C3%BCcel-%C3%A7imtay-34b45645/]
+
 
 
 
