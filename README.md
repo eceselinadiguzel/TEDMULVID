@@ -166,6 +166,31 @@ For further inquiries or collaboration opportunities, feel free to reach out:
   - Email: [yucel.cimtay@gmail.com]
   - LinkedIn: [https://www.linkedin.com/in/y%C3%BCcel-%C3%A7imtay-34b45645/]
 
+- **[Ece Selin Adıgüzel]**
+  - Email: [Click to Email](eceselinadiguzel@gmail.com)
+  - LinkedIn: [![LinkedIn][1.1]][1]
+
+- **[Ayşe Almacı]**
+  - Email: [Click to Email](ayse.almaci@tedu.edu.tr)
+  - LinkedIn: [![LinkedIn][1.1]][2]
+
+- **[Doruk Eren]**
+  - Email: [Click to Email](dorukeren1986@gmail.com)
+  - LinkedIn: [![LinkedIn][1.1]][3]
+
+- **[Ayşe Almacı]**
+  - Email: [Click to Email](yucel.cimtay@gmail.com)
+  - LinkedIn: [![LinkedIn][1.1]][4]
+
+<!-- Icons -->
+[1.1]: https://i.stack.imgur.com/gVE0j.png (linkedin icon with padding)
+
+<!-- Links to your social media accounts -->
+[1]: https://www.linkedin.com/in/eceselinadiguzel/
+[2]: https://www.linkedin.com/in/aysealmaci/
+[3]: https://www.linkedin.com/in/doruk-eren-70824420a/
+[4]: https://www.linkedin.com/in/y%C3%BCcel-%C3%A7imtay-34b45645/
+
 
 
 
