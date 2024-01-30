@@ -153,19 +153,19 @@ If you use our work or dataset in your research, please cite our paper:
 
 For further inquiries or collaboration opportunities, feel free to reach out:
 
-- **[Ece Selin Adıgüzel]**
+- **Ece Selin Adıgüzel**
   - Email: [Click to Email](mailto:eceselinadiguzel@gmail.com)
   - LinkedIn: [![LinkedIn][1.1]][1]
 
-- **[Ayşe Almacı]**
+- **Ayşe Almacı**
   - Email: [Click to Email](mailto:ayse.almaci@tedu.edu.tr)
   - LinkedIn: [![LinkedIn][1.1]][2]
 
-- **[Doruk Eren]**
+- **Doruk Eren**
   - Email: [Click to Email](mailto:dorukeren1986@gmail.com)
   - LinkedIn: [![LinkedIn][1.1]][3]
 
-- **[Ayşe Almacı]**
+- **Yücel Çimtay**
   - Email: [Click to Email](mailto:yucel.cimtay@gmail.com)
   - LinkedIn: [![LinkedIn][1.1]][4]
 
