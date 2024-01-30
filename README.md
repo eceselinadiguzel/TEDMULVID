@@ -153,33 +153,20 @@ If you use our work or dataset in your research, please cite our paper:
 
 For further inquiries or collaboration opportunities, feel free to reach out:
 
-- **Ece Selin Adıgüzel**
-  - Email: (eceselinadiguzel@gmail.com)
-  - LinkedIn: (https://www.linkedin.com/in/eceselinadiguzel/)
-- **Ayşe Almacı**
-  - Email: [ayse.almaci@tedu.edu.tr]
-  - LinkedIn: [https://www.linkedin.com/in/aysealmaci/]
-- **Doruk Eren**
-  - Email: [dorukeren1986@gmail.com]
-  - LinkedIn: [https://www.linkedin.com/in/doruk-eren-70824420a/]
-- **Yücel Çimtay**
-  - Email: [yucel.cimtay@gmail.com]
-  - LinkedIn: [https://www.linkedin.com/in/y%C3%BCcel-%C3%A7imtay-34b45645/]
-
 - **[Ece Selin Adıgüzel]**
-  - Email: [your-email@example.com](mailto:eceselinadiguzel@gmail.com)[Click to Email](eceselinadiguzel@gmail.com)
+  - Email: [Click to Email](mailto:eceselinadiguzel@gmail.com)
   - LinkedIn: [![LinkedIn][1.1]][1]
 
 - **[Ayşe Almacı]**
-  - Email: [Click to Email](ayse.almaci@tedu.edu.tr)
+  - Email: [Click to Email](mailto:ayse.almaci@tedu.edu.tr)
   - LinkedIn: [![LinkedIn][1.1]][2]
 
 - **[Doruk Eren]**
-  - Email: [Click to Email](dorukeren1986@gmail.com)
+  - Email: [Click to Email](mailto:dorukeren1986@gmail.com)
   - LinkedIn: [![LinkedIn][1.1]][3]
 
 - **[Ayşe Almacı]**
-  - Email: [Click to Email](yucel.cimtay@gmail.com)
+  - Email: [Click to Email](mailto:yucel.cimtay@gmail.com)
   - LinkedIn: [![LinkedIn][1.1]][4]
 
 <!-- Icons -->
