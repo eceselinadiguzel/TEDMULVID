@@ -118,7 +118,7 @@ The `TEDMULVID.py` script is designed to calculate metrics for videos from the T
 
 ### Select a Ground Truth Image:
 
-- From the selected scene's `gt` folder, choose a ground truth image for metric calculation. This image will be used as a reference for quality assessment.
+- From the selected scene's `GT` folder, choose a ground truth image for metric calculation. This image will be used as a reference for quality assessment.
 
 ### Specify an Excel File:
 
