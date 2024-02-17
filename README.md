@@ -82,14 +82,85 @@ For our benchmark, we've chosen a suite of metrics to evaluate image quality. Ea
 
 These metrics were computed using the PyTorch Image Quality (PIQ) library for their robustness and reliability in various image quality assessment scenarios.
 
-### Using PIQ for Metrics Calculation
-We utilize PyTorch Image Quality (PIQ) to calculate these metrics efficiently. PIQ is a versatile Python library that provides a collection of measures and metrics for image quality assessment with PyTorch.
+## Using PIQ for Metrics Calculation
 
-To calculate the image quality metrics using PIQ, run the `image_metrics.py` script:
+We utilize the PyTorch Image Quality (PIQ) library to efficiently calculate various image quality metrics. PIQ is a comprehensive Python library offering a range of measures and metrics for image quality assessment using PyTorch.
+
+### Getting Started
+
+Before running the `TEDMULVID.py` script, follow these steps to set up your environment:
+
+### Download and Place the TEDMULVID Dataset:
+
+- After installing PIQ, download the TEDMULVID dataset from the provided drive link.
+- Extract and place the dataset scenes into the `examples` folder in the root directory of this repository.
+
+### Install Required Dependencies:
+
+To ensure all dependencies are correctly installed, use the provided `requirements.txt` file. Run the following command:
 
 ```
-python image_metrics.py
+pip install -r requirements.txt
 ```
+## Running the TEDMULVID.py Script
+
+The `TEDMULVID.py` script is designed to calculate metrics for videos from the TEDMULVID dataset based on the selected enhancement method, scene, ground truth image, and output Excel file.
+
+## Steps to Follow
+
+### Select the Enhancement Method:
+
+- The command varies depending on the enhancement method you choose. Ensure you specify the correct method in the command line.
+
+### Choose a Scene:
+
+- TEDMULVID dataset includes different scenes. You will need to specify which scene you want to process. The available scenes are structured in a way that allows you to select one for metric calculation.
+
+### Select a Ground Truth Image:
+
+- From the selected scene's `gt` folder, choose a ground truth image for metric calculation. This image will be used as a reference for quality assessment.
+
+### Specify an Excel File:
+
+- Provide the name of the Excel file where the results will be recorded. If an Excel file with the given name does not exist in the `examples` directory, the script will create it.
+
+### Running the Script
+
+To run the script, use the following command structure, replacing the placeholders with your chosen options:
+
+```
+python ./examples/TEDMULVID.py --method [METHOD_NAME] --scene [SCENE_NAME] --gt [GROUND_TRUTH_IMAGE_NAME] --excel [EXCEL_FILE_NAME]
+```
+
+To calculate image quality metrics using the script, you need to execute it with specific command-line arguments for each low-light model you are evaluating. Here are the commands for different models:
+### For the `enlighten_inference` model:
+```
+python ./examples/ICIP.py --method "enlighten_inference" --scene "Scene-1" --gt "15.png" --excel "results.xlsx"
+```
+### For the `Exposure_Correction-master` model:
+```
+python ./examples/ICIP.py --method "Exposure_Correction-master" --scene "Scene-1" --gt "15.png" --excel "results.xlsx"
+```
+### For the `night-enhancement` model:
+```
+python ./examples/ICIP.py --method "night-enhancement-main" --scene "Scene-1" --gt "15.png" --excel "results.xlsx"
+```
+### For the `RUAS` model:
+```
+python ./examples/ICIP.py --method "RUAS-main" --scene "Scene-1" --gt "15.png" --excel "results.xlsx"
+```
+### For the `SCI` model:
+The SCI-main model includes three different sub-models: difficult, medium, and easy. To evaluate each of these models, you will need to run the script with a slightly different command for each sub-model. Here are the different commands:
+```
+python ./examples/ICIP.py --method "SCI-main difficult" --scene "Scene-1" --gt "15.png" --excel "results.xlsx"
+```
+```
+python ./examples/ICIP.py --method "SCI-main easy" --scene "Scene-1" --gt "15.png" --excel "results.xlsx"
+```
+```
+python ./examples/ICIP.py --method "SCI-main medium" --scene "Scene-1" --gt "15.png" --excel "results.xlsx"
+```
+
 ## Benchmarking Results
 
 Our benchmarking results are summarized in two tables representing the performance of different deep learning models across multiple metrics.
