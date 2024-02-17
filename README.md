@@ -131,6 +131,8 @@ To run the script, use the following command structure, replacing the placeholde
 ```
 python ./examples/TEDMULVID.py --method [METHOD_NAME] --scene [SCENE_NAME] --gt [GROUND_TRUTH_IMAGE_NAME] --excel [EXCEL_FILE_NAME]
 ```
+Each command should be run in the terminal, pointing to the respective method's directory. The arguments --method, --scene, --gt, and --excel specify the enhancement method, the scene folder name, the ground truth image file name, and the Excel file path, respectively.
+
 ### Example Commands For Scene-1
 To calculate image quality metrics using the script, you need to execute it with specific command-line arguments for each low-light model you are evaluating. Here are the commands for different models:
 - For the `enlighten_inference` model:
