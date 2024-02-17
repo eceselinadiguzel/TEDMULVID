@@ -131,25 +131,25 @@ To run the script, use the following command structure, replacing the placeholde
 ```
 python ./examples/TEDMULVID.py --method [METHOD_NAME] --scene [SCENE_NAME] --gt [GROUND_TRUTH_IMAGE_NAME] --excel [EXCEL_FILE_NAME]
 ```
-
+### Example Commands For Scene-1
 To calculate image quality metrics using the script, you need to execute it with specific command-line arguments for each low-light model you are evaluating. Here are the commands for different models:
-### For the `enlighten_inference` model:
+- For the `enlighten_inference` model:
 ```
 python ./examples/ICIP.py --method "enlighten_inference" --scene "Scene-1" --gt "15.png" --excel "results.xlsx"
 ```
-### For the `Exposure_Correction-master` model:
+- For the `Exposure_Correction-master` model:
 ```
 python ./examples/ICIP.py --method "Exposure_Correction-master" --scene "Scene-1" --gt "15.png" --excel "results.xlsx"
 ```
-### For the `night-enhancement` model:
+- For the `night-enhancement` model:
 ```
 python ./examples/ICIP.py --method "night-enhancement-main" --scene "Scene-1" --gt "15.png" --excel "results.xlsx"
 ```
-### For the `RUAS` model:
+- For the `RUAS` model:
 ```
 python ./examples/ICIP.py --method "RUAS-main" --scene "Scene-1" --gt "15.png" --excel "results.xlsx"
 ```
-### For the `SCI` model:
+- For the `SCI` model:
 The SCI-main model includes three different sub-models: difficult, medium, and easy. To evaluate each of these models, you will need to run the script with a slightly different command for each sub-model. Here are the different commands:
 ```
 python ./examples/ICIP.py --method "SCI-main difficult" --scene "Scene-1" --gt "15.png" --excel "results.xlsx"
