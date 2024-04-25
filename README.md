@@ -254,7 +254,8 @@ For further inquiries or collaboration opportunities, feel free to reach out:
 [2]: https://www.linkedin.com/in/aysealmaci/
 [3]: https://www.linkedin.com/in/doruk-eren-70824420a/
 [4]: https://www.linkedin.com/in/y%C3%BCcel-%C3%A7imtay-34b45645/
-[5]: https://www.linkedin.com/in/y%C3%BCcel-%C3%A7imtay-34b45645/
+[5]: https://tr.linkedin.com/in/gokce-nur-yilmaz-5658181a/
+
 
 
 
