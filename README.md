@@ -227,7 +227,7 @@ If you use our work or dataset in your research, please cite our paper:
 For further inquiries or collaboration opportunities, feel free to reach out:
 
 - **Ece Selin Adıgüzel** :
-  - Email: [Click to Email](mailto:eceselinadiguzel@gmail.com)
+  - Email: [Click to Email](mailto:eselin.adiguzel@tedu.edu.tr)
   - LinkedIn: [![LinkedIn][1.1]][1]
 
 - **Ayşe Almacı**
@@ -235,12 +235,16 @@ For further inquiries or collaboration opportunities, feel free to reach out:
   - LinkedIn: [![LinkedIn][1.1]][2]
 
 - **Doruk Eren**
-  - Email: [Click to Email](mailto:dorukeren1986@gmail.com)
+  - Email: [Click to Email](mailto:doruk.eren@tedu.edu.tr)
   - LinkedIn: [![LinkedIn][1.1]][3]
 
 - **Yücel Çimtay**
-  - Email: [Click to Email](mailto:yucel.cimtay@gmail.com)
+  - Email: [Click to Email](mailto:yucel.cimtay@tedu.edu.tr)
   - LinkedIn: [![LinkedIn][1.1]][4]
+
+- **Gökçe Nur Yılmaz**
+  - Email: [Click to Email](mailto:gokce.yilmaz@tedu.edu.tr)
+  - LinkedIn: [![LinkedIn][1.1]][5]
 
 <!-- Icons -->
 [1.1]: https://i.stack.imgur.com/gVE0j.png (linkedin icon with padding)
@@ -250,6 +254,7 @@ For further inquiries or collaboration opportunities, feel free to reach out:
 [2]: https://www.linkedin.com/in/aysealmaci/
 [3]: https://www.linkedin.com/in/doruk-eren-70824420a/
 [4]: https://www.linkedin.com/in/y%C3%BCcel-%C3%A7imtay-34b45645/
+[5]: https://www.linkedin.com/in/y%C3%BCcel-%C3%A7imtay-34b45645/
 
 
 
